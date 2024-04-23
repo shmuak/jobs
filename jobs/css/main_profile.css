@@ -1,0 +1,195 @@
+main {
+    margin-bottom: 100px;
+}
+.flex {
+    display: flex;
+}
+
+.main-title h1{    
+    font-size: 30px;
+    color: #2B4E92;
+    margin-bottom: 20px;
+}
+
+.main-profile {
+    background-color: #F9FAFC;
+    width:560px;
+    height: auto ;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.main-profile-head-flex {
+    display: flex;
+}
+
+.main-profile-head-grid {
+    display: grid;
+}
+
+.main-profile-head-grid img {
+    margin-left: 30px;
+}
+
+.main-profile-head-flex:first-child {
+    margin-left: 200px;
+}
+
+#name {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262626;
+    font-weight: 700;
+}
+
+
+#profession {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #8C8C8C;
+    margin-bottom: 25px;
+}
+
+hr {
+    background-color: #E1E8F4;
+    height: 0.5px;
+    border: none;
+}
+
+.main-profile-tegs {
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #8C8C8C;
+    padding: 20px 10px;
+}
+
+.main-profile-tegs p {
+    max-width: 560px;
+    word-wrap: break-word;
+}
+
+
+.main-button-change button{
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+
+.main-button-change button:hover {
+    background-color: #e0e5ef;
+}
+
+.main-profile-title {
+   
+    font-size: 25px;
+    color: #1E1E1E;
+    padding: 20px 10px;
+}
+
+.main-profile-skills {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.main-profile-skills-program {  
+    padding: 7px 18px;
+    color: #0075FF;
+    text-align:center;
+    background: rgba(0, 117, 255, 0.07);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.main-profile-skills-control {
+    text-align:center;
+    padding: 7px 18px;
+    background: rgba(189, 0, 255, 0.07);
+    border-radius: 8px;
+    font-size: 18px;
+    color: #BD00FF;
+}
+
+.main-list {
+    width: 100%;
+}
+
+
+.main-list-button-add { 
+    margin-left: 40px ;
+    border:2px dashed #A6B1C5;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: #A6B1C5;
+    background-color: transparent;
+    height: 80px; 
+    width: 100%; 
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.main-list-button-add:hover {
+    background-color: #e0e5ef;
+}
+
+.main-list-items {
+    display: grid;
+}
+
+.main-list-item {
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 40px;
+    background: #F9FAFC;
+    border-radius: 20px;
+}
+
+.main-list-item-title {
+    display: flex;
+}
+
+.main-list-item-button {
+    margin-left: auto;
+}
+.main-list-item-title-prof {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+    color: #000000;
+    align-items: start;
+}
+
+.main-list-item-title-date {
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.main-list-item-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.main-list-item-skills {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}

@@ -1,0 +1,27 @@
+.main-company {
+    max-width: 400px;
+}
+
+.main-company input {
+    margin: 10px 0;
+}
+
+.main-company-header {
+    text-align: center; 
+}
+
+.main-company-header img {
+    vertical-align: middle; 
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.main-profile-add-item-experience {
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-between;
+    align-items: center;
+
+}

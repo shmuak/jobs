@@ -1,6 +1,7 @@
 @import "./header.css";
-@import "./main.css";
+@import "./main_profile.css";
 @import "./profile_add.css";
+@import "./company_add.css";
 
 * {
     margin: 0;
