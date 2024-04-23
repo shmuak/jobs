@@ -1,0 +1,147 @@
+form {
+    padding-right: 5px;
+
+
+}
+.main-profile-form-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-profile-form-title-name {
+    margin-left: 20px;
+}
+
+.main-profile-input {
+    font-size: 18px;
+    font-family: 'DMSans-Italic', sans-serif;
+    padding: 10px 20px;
+    background: #FBFBFB;
+    border: 1.2px solid #EEEEEE;
+    border-radius: 15px;
+    margin: 7px;
+    width: 100%;
+    height: 54px;
+    box-sizing: border-box; 
+}
+
+input:focus {
+    outline-color: #A6B1C5;
+}
+
+.main-profile-form-profession {
+  margin-bottom: 10px;
+}
+
+.main-profile-form-profession input {
+    width: 100%;
+    box-sizing: border-box; 
+  
+}
+
+.main-profile-form-about {
+    margin: 12px 0;
+}
+.main-profile-form-about textarea {
+    width: 380px;
+    border: 2px solid #EEEEEE;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.main-profile-form-about textarea:focus {
+    outline-color: #A6B1C5;
+}
+.main-profile-form-button {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.main-profile-form-button button{
+    
+    padding: 0px 20px;
+    width: 125px;
+    height: 40px;
+    background: linear-gradient(91.07deg, #0075FF 0.62%, #1363FF 99.36%);
+    border-radius: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.main-list-items form {
+    margin-left: 50px;
+    padding: 10px;
+}
+.main-profile-add-item input {
+ 
+}
+
+.main-profile-add-item-job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-profile-add-item-job span {
+    margin: px;
+}
+
+.main-profile-add-item-job input {
+    width: 50%;
+}
+
+.main-profile-add-item textarea {
+    width: 95%;
+    border: 2px solid #EEEEEE;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+    height: 200px;
+}
+
+.main-profile-add-item textarea:focus {
+    outline-color: #A6B1C5;
+}
+
+.main-profile-add-item-skills {
+    display: flex;
+}
+.main-profile-add-item-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.main-profile-add-item-buttons-save {
+    margin-top: 35px;
+}
+
+.main-profile-add-item-buttons-delete button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    width: 114px;
+    height: 40px;
+    background: rgba(235, 0, 0, 0.07);
+    border-radius: 30px;
+    color: #EB0000;
+    margin-top: 55px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+}
