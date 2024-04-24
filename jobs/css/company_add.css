@@ -11,7 +11,8 @@
 }
 
 .main-company-header img {
-    vertical-align: middle; 
+    vertical-align: middle;
+    width: 100px;
 }
 
 hr {
@@ -24,4 +25,14 @@ hr {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.main-profile-company-text {
+    width: 360px;
+    border: 2px solid #EEEEEE;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
 }

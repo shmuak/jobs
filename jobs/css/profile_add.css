@@ -43,8 +43,8 @@ input:focus {
 .main-profile-form-about {
     margin: 12px 0;
 }
-.main-profile-form-about textarea {
-    width: 380px;
+.main-profile-user-form-about textarea {
+    width: 493px;
     border: 2px solid #EEEEEE;
     resize: none;
     border-radius: 10px;
@@ -53,7 +53,7 @@ input:focus {
     font-size: 20px;
 }
 
-.main-profile-form-about textarea:focus {
+.main-profile-user-form-about textarea:focus {
     outline-color: #A6B1C5;
 }
 .main-profile-form-button {
@@ -62,7 +62,8 @@ input:focus {
 }
 
 .main-profile-form-button button{
-    
+
+    cursor: pointer;
     padding: 0px 20px;
     width: 125px;
     height: 40px;
@@ -80,9 +81,6 @@ input:focus {
 .main-list-items form {
     margin-left: 50px;
     padding: 10px;
-}
-.main-profile-add-item input {
- 
 }
 
 .main-profile-add-item-job {
@@ -119,6 +117,14 @@ input:focus {
 .main-profile-add-item-skills {
     display: flex;
 }
+.main-profile-add-item-skills:nth-child(2) {
+    margin-left: 120px;
+}
+.main-profile-add-item-skills h3 {
+    margin-top: 10px;   
+    margin-left: 20px;
+}
+
 .main-profile-add-item-buttons {
     display: flex;
     justify-content: space-between;
@@ -128,6 +134,7 @@ input:focus {
 }
 
 .main-profile-add-item-buttons-delete button{
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -144,4 +151,11 @@ input:focus {
     font-weight: 500;
     font-size: 18px;
     border: none;
+}
+
+.main-profile-add-item {
+    background-color:  #F9FAFC;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
 }
