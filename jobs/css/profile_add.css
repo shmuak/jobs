@@ -117,8 +117,8 @@ input:focus {
 .main-profile-add-item-skills {
     display: flex;
 }
-.main-profile-add-item-skills:nth-child(2) {
-    margin-left: 120px;
+.main-profile-add-item-skills input {
+    width: 325px;
 }
 .main-profile-add-item-skills h3 {
     margin-top: 10px;   
@@ -154,7 +154,7 @@ input:focus {
 }
 
 .main-profile-add-item {
-    background-color:  #F9FAFC;
+    background-color:  rgba(0, 117, 255, 0.07);
     margin-bottom: 30px;
     padding: 10px;
     border-radius: 10px;

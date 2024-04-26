@@ -25,10 +25,14 @@ main {
 
 .main-profile-head-grid {
     display: grid;
+    justify-items: center; /* Центрируем элементы по горизонтали */
+    align-items: center; 
+    /*
+    
 }
 
 .main-profile-head-grid img {
-    margin-left: 30px;
+    margin-left: 30px; /* Добавляем немного отступа слева, если необходимо */
 }
 
 .main-profile-head-flex:first-child {

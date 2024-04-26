@@ -1,0 +1,46 @@
+.main-company {
+    background-color: #F9FAFC;
+    width: 560px;
+    height: auto ;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#name_company {
+    white-space: nowrap;
+    margin: 5px;
+    display: block;
+}
+
+.main-company-add-header-name {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-company-add-info h2 {
+    margin: 15px;
+    color: #9a9898;
+}
+
+.main-company-add-info textarea {
+    margin-left: 15px;
+    width: 340px;
+    border: 2px solid #EEEEEE;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 200px;
+}
+
+.main-company-add-info-content {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.main-list-item-title-salary {
+    font-size: 22px;
+    color: #0075FF;
+}
