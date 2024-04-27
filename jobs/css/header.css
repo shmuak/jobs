@@ -24,8 +24,8 @@ header {
     
 }
 .header-ul-item a:hover {
-    color: rgb(129, 139, 161);
-    cursor: pointer;
+    color: #0075FF;
+
 }
 
 .header-messege img {

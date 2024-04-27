@@ -3,6 +3,7 @@
 @import "./profile_add.css";
 @import "./company_add.css";
 @import "./company.css";
+@import "./vacancies.css";
 
 * {
     margin: 0;
