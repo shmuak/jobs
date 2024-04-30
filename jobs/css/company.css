@@ -11,6 +11,23 @@
     margin: 5px;
     display: block;
 }
+.main-company-add-header {
+    margin-left: 90px;
+}
+main .main-company-button-change  {
+    width: 50px;
+}
+
+main .main-company-button-change  button{
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 65px;
+    margin-right: 0px; 
+}
 
 .main-company-add-header-name {
     margin: 10px;
@@ -23,16 +40,15 @@
     color: #9a9898;
 }
 
-.main-company-add-info textarea {
-    margin-left: 15px;
-    width: 340px;
-    border: 2px solid #EEEEEE;
-    resize: none;
-    border-radius: 10px;
+.main-company-add-info p {
+    margin-left: 5px;
+    width: 335px;
+    hyphens: auto;
+    color: #8C8C8C;
     padding: 10px;
     font-weight: 500;
     font-size: 20px;
-    height: 200px;
+    
 }
 
 .main-company-add-info-content {
@@ -44,3 +60,8 @@
     font-size: 22px;
     color: #0075FF;
 }
+
+.main-button-change img {
+    width: 25px;
+}
+
