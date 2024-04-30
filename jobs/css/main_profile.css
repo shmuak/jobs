@@ -45,13 +45,20 @@ main {
 }
 
 
-#profession {
+.profession {
     font-family: 'SF Pro Display';
     font-weight: 400;
     font-size: 16px;
     text-align: center;
     color: #8C8C8C;
-    margin-bottom: 25px;
+}
+
+.mail {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #8C8C8C;
 }
 
 hr {
