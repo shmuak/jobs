@@ -18,6 +18,7 @@
     background-color: #f4f4f5b0;
     padding: 10px;
     transition: transform 0.3s ease; 
+    white-space: pre-wrap;
 }
 
 .main-vacancies-item:hover {
