@@ -1,0 +1,97 @@
+.container {
+    font-family: 'DMSans-Italic', sans-serif;
+    margin: 0 102px;
+    max-width: auto;
+}
+
+.main-profile-skills {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+
+.main-vacancies-skills-program {
+    padding: 5px 10px;
+    color: #0075FF;
+    text-align:center;
+    background: rgba(0, 117, 255, 0.07);
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.vacancy {
+    width: 580px;
+    height: 800px;
+    background-color: #F9FAFC;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.vacancy-head {
+    border-radius: 10px;
+    height: 180px;
+    width: 580px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.vacancy-head img {
+    width: 100px;
+    height: 100px;
+}
+
+.vacancy-prof {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.vacancy-company {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #A2A4AA;
+}
+
+.vacancy-info {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    color: #7E8FA7;
+}
+
+.vacancy-price {
+    display: flex;
+}
+
+.vacancy-location {
+    font-weight: 400;
+    font-size: 19px;
+    color: #A2A4AA;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vacancy-price {
+    font-weight: 400;
+    font-size: 23px;
+    width: 100%;
+    color: #A2A4AA;
+}
+
+.vacancy-price span {
+    color: #0075FF;
+}
+
+.vacancy-button {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: flex-end; /* Align the button to the bottom */
+}

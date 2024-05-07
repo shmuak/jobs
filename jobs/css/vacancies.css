@@ -18,7 +18,7 @@
     background-color: #f4f4f5b0;
     padding: 10px;
     transition: transform 0.3s ease; 
-    white-space: pre-wrap;
+
 }
 
 .main-vacancies-item:hover {
@@ -27,6 +27,7 @@
 }
 .main-vacancies-item-job {
     font-size: 25px;
+    font-weight: bold;
     color: #000000;
 }
 
@@ -48,7 +49,7 @@
 }
 
 .main-vacancies-item-location-salary {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .main-vacancies-skills-program {
@@ -74,5 +75,6 @@
 
 .main-vacancies-item-salary span{
     font-size: 30px;
+    font-weight:bold;
     color: #0075FF;
 }
