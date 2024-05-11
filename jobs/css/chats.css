@@ -1,0 +1,106 @@
+.chats-item {
+    border-radius: 8px;
+    padding: 5px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.chats-item-img {
+    margin-right: 10px; /* Добавляет небольшое пространство между изображением и контентом */
+}
+
+.chats-item-content {
+    flex: 1; /* Растягивает контентный блок на всю доступную ширину */
+    display: flex;
+    justify-content: space-between; /* Располагает элементы контента с пространством между ними */
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
+
+.chats-item-info {
+    display: flex;
+    flex-direction: column; /* Располагает информацию (имя и текст) вертикально */
+}
+
+.chats-item-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.chats-item-time {
+    font-size: 16px;
+    color: #ced1da;
+}
+.chats {
+    overflow:scroll;
+    width: 500px;
+    height: 400px;
+    /* background-color: gray; */
+    padding: 10px;
+    border: 1px solid grey;
+ 
+    border-radius: 8px;
+}
+
+.container {
+    font-family: 'DMSans-Italic', sans-serif;
+    margin: 0 102px;
+    max-width: auto;
+}
+
+.chats h1 {
+    text-align: center;
+    color: #0075FF;
+
+}
+
+.chats-item {
+      border-radius: 8px;
+    padding: 5px;
+    margin: 0px 10px;
+    display: flex;
+    width: auto;
+}
+
+.chats-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.chats-item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chats-item-title {
+    font-size: 20px;
+    margin: 0;
+}
+.chats-item-text {
+    font-size: 17px;
+    color: #8b8c90;
+}
+
+.chats-item:hover {
+    background-color: #ced1da;
+}
+
+hr {
+    color: #ced1da;
+}
+
+
+
+.chats-item-info {
+    display: grid;
+    margin-left: 20px;
+}
+
+.chats-item-message {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0;
+}
