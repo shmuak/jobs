@@ -1,7 +1,13 @@
 .main-vacancies-filters {
-    width: 300px;       
+    width: 300px;
     height: 500px;
-    border: 2px solid;
+    font-family: 'DMSans-Italic', sans-serif;
+    font-size: 18px;
+    font-weight: bold;  
+}
+
+.main-vacancies-filters label {
+    margin-left: 10px;
 }
 
 .main-vacancies-items {
@@ -17,14 +23,15 @@
     border-radius: 8px;
     background-color: #f4f4f5b0;
     padding: 10px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 
 }
 
 .main-vacancies-item:hover {
     cursor: pointer;
-    transform: scale(1.06); 
+    transform: scale(1.06);
 }
+
 .main-vacancies-item-job {
     font-size: 25px;
     font-weight: bold;
@@ -37,13 +44,14 @@
 }
 
 .main-vacancies-item-title a {
-    
+
     text-decoration: none;
     cursor: pointer;
     font-size: 17px;
     line-height: 100%;
     color: #A2A4AA;
 }
+
 .main-vacancies-item-title a:hover {
     color: rgb(131, 135, 140);
 }
@@ -55,7 +63,7 @@
 .main-vacancies-skills-program {
     padding: 5px 10px;
     color: #0075FF;
-    text-align:center;
+    text-align: center;
     background: rgba(0, 117, 255, 0.07);
     border-radius: 8px;
     font-size: 15px;
@@ -73,8 +81,13 @@
     color: #A2A4AA;
 }
 
-.main-vacancies-item-salary span{
+.main-vacancies-item-salary span {
     font-size: 30px;
-    font-weight:bold;
+    font-weight: bold;
     color: #0075FF;
+}
+
+.main-vacancies-filters-button {
+    display: block;
+    margin: 0 auto;
 }

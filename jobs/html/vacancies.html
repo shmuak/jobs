@@ -40,7 +40,36 @@
                 </div>
                 <div class="flex">
                         <div class="main-vacancies-filters">
-                            ФИЛЬТРЫ
+                            <form action="">
+                                <div>
+                                    <label>Title:</label>
+                                    <input class="main-profile-input" type="text" formControlName="title">
+                                </div>
+                                <div>
+                                    <label>Minimum Salary:</label>
+                                    <input class="main-profile-input" type="number" formControlName="minSalary">
+                                </div>
+                                <div>
+                                    <label>Sort Type:</label>
+                                    <select formControlName="sortType" class="main-profile-input">
+                                    <option *ngFor="let sortType of sortTypes" [value]="sortType[0]">{{ sortType[1] }}</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label>Experience Level:</label>
+                                    <select formControlName="experienceLevel" class="main-profile-input">
+                                    <option *ngFor="let level of experienceLevels" [value]="level[0]">{{ level[1] }}</option>
+                                    </select>
+                                </div>
+                                <label>Country:</label>
+                                <input class="main-profile-input" type="text" formControlName="country">
+                            
+                                <label>City:</label>
+                                <input class="main-profile-input" type="text" formControlName="city">
+                            
+                                <button class="main-vacancies-filters-button" type="submit">Apply Filter</button>
+                          </form>
+                          
                         </div>
                         <div class="main-vacancies-items">
                             <div class="main-vacancies-item">
