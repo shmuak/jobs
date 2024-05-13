@@ -21,10 +21,21 @@ main {
 
 .main-profile-head-flex {
     display: flex;
+    align-items:flex-start; /* Чтобы кнопка выравнивалась вертикально по центру */
+}
+
+.main-button-change {
+    margin-left: auto; /* Помещает кнопку в правый конец блока */
 }
 
 .main-profile-head-grid {
     display: grid;
+
+}
+
+#name, #Surname {
+    word-wrap: break-word;
+    max-width: 150px;
 }
 
 .main-profile-head-grid img {
@@ -42,6 +53,8 @@ main {
     text-align: center;
     color: #262626;
     font-weight: 700;
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 
